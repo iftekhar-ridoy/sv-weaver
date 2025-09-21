@@ -1,0 +1,290 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-lookbook-1",
+      "description": "Model in dark jeans and white top looking to the side",
+      "imageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=1920&h=1080&fit=crop",
+      "imageHint": "fashion model",
+      "type": "image"
+    },
+    {
+      "id": "hero-video-1",
+      "description": "Short video showcasing different fashion looks",
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=1920&h=1080&fit=crop",
+      "imageHint": "fashion show",
+      "type": "video"
+    },
+    {
+      "id": "hero-lookbook-2",
+      "description": "Model in a stylish outfit posing outdoors",
+      "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1920&h=1080&fit=crop",
+      "imageHint": "street style",
+      "type": "image"
+    },
+    {
+      "id": "style-inspiration-bg",
+      "description": "Woman in a stylish beige outfit walking in a city",
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1920&h=1080&fit=crop",
+      "imageHint": "street fashion"
+    },
+    {
+      "id": "must-have-jeans",
+      "description": "Woman in jeans and a leather jacket",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&h=800&fit=crop",
+      "imageHint": "woman jeans"
+    },
+    {
+      "id": "must-have-outerwear",
+      "description": "Woman in a pink knitted vest",
+      "imageUrl": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?q=80&w=600&h=800&fit=crop",
+      "imageHint": "knitted vest"
+    },
+    {
+      "id": "must-have-trucker",
+      "description": "Woman in a floral dress",
+      "imageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=600&h=800&fit=crop",
+      "imageHint": "floral dress"
+    },
+    {
+      "id": "must-have-sweaters",
+      "description": "Woman wearing a white sweater",
+      "imageUrl": "https://images.unsplash.com/photo-1559563458-527698bf5295?q=80&w=600&h=800&fit=crop",
+      "imageHint": "white sweater"
+    },
+    {
+      "id": "jacket-1",
+      "description": "Front view of a classic denim jacket.",
+      "imageUrl": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "denim jacket"
+    },
+    {
+      "id": "jacket-2",
+      "description": "Side view of a classic denim jacket.",
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "denim jacket"
+    },
+    {
+      "id": "jacket-3",
+      "description": "Close-up detail of a classic denim jacket.",
+      "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "denim texture"
+    },
+    {
+      "id": "jeans-1",
+      "description": "Front view of slim fit stretch jeans.",
+      "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "blue jeans"
+    },
+    {
+      "id": "jeans-2",
+      "description": "Back view of slim fit stretch jeans.",
+      "imageUrl": "https://images.unsplash.com/photo-1475178626620-a4d074967452?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "blue jeans"
+    },
+    {
+      "id": "jeans-3",
+      "description": "Fit detail of slim fit stretch jeans.",
+      "imageUrl": "https://images.unsplash.com/photo-1564687267300-db9e0ef58654?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "denim fit"
+    },
+    {
+      "id": "tee-1",
+      "description": "Front view of an organic cotton tee.",
+      "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "white t-shirt"
+    },
+    {
+      "id": "tee-2",
+      "description": "Model wearing an organic cotton tee.",
+      "imageUrl": "https://images.unsplash.com/photo-1571945153237-4929e783af4a?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "t-shirt model"
+    },
+    {
+      "id": "tee-3",
+      "description": "Fabric detail of an organic cotton tee.",
+      "imageUrl": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "cotton fabric"
+    },
+    {
+      "id": "dress-1",
+      "description": "Front view of a floral print midi dress.",
+      "imageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "floral dress"
+    },
+    {
+      "id": "dress-2",
+      "description": "Model twirling in a floral print midi dress.",
+      "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "woman dress"
+    },
+    {
+      "id": "dress-3",
+      "description": "Pattern detail of a floral print midi dress.",
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "floral pattern"
+    },
+    {
+      "id": "boots-1",
+      "description": "Side view of leather ankle boots.",
+      "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "leather boots"
+    },
+    {
+      "id": "boots-2",
+      "description": "Front view of leather ankle boots.",
+      "imageUrl": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5d?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "ankle boots"
+    },
+    {
+      "id": "boots-3",
+      "description": "Model wearing leather ankle boots with jeans.",
+      "imageUrl": "https://images.unsplash.com/photo-1520256862855-398228c41684?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "fashion boots"
+    },
+    {
+      "id": "tote-1",
+      "description": "Canvas tote bag held by a person.",
+      "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "tote bag"
+    },
+    {
+      "id": "tote-2",
+      "description": "Close-up of canvas tote bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1553735257-c5f7b2b25eda?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "canvas bag"
+    },
+    {
+      "id": "shorts-1",
+      "description": "Front view of high-waisted shorts.",
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "denim shorts"
+    },
+    {
+      "id": "shorts-2",
+      "description": "Back view of high-waisted shorts.",
+      "imageUrl": "https://images.unsplash.com/photo-1562572159-4efc207f5aff?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "denim shorts"
+    },
+    {
+      "id": "shorts-3",
+      "description": "Model wearing high-waisted shorts.",
+      "imageUrl": "https://images.unsplash.com/photo-1553456558-aff63285bdd1?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "summer fashion"
+    },
+    {
+      "id": "flannel-1",
+      "description": "Front view of a button-down flannel shirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1564687267300-db9e0ef58654?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "flannel shirt"
+    },
+    {
+      "id": "flannel-2",
+      "description": "Model wearing a button-down flannel shirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "mens fashion"
+    },
+    {
+      "id": "flannel-3",
+      "description": "Fabric detail of a button-down flannel shirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1571945153237-4929e783af4a?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "plaid pattern"
+    },
+    {
+      "id": "beanie-1",
+      "description": "Wool beanie hat.",
+      "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "wool beanie"
+    },
+    {
+      "id": "beanie-2",
+      "description": "Model wearing a wool beanie hat.",
+      "imageUrl": "https://images.unsplash.com/photo-1564687267300-db9e0ef58654?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "winter fashion"
+    },
+    {
+      "id": "sneakers-1",
+      "description": "Side view of minimalist leather sneakers.",
+      "imageUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "white sneakers"
+    },
+    {
+      "id": "sneakers-2",
+      "description": "Top-down view of minimalist leather sneakers.",
+      "imageUrl": "https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "leather sneakers"
+    },
+    {
+      "id": "sneakers-3",
+      "description": "Model wearing minimalist leather sneakers.",
+      "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "street style"
+    },
+    {
+      "id": "trench-1",
+      "description": "Woman wearing a classic beige trench coat.",
+      "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "trench coat"
+    },
+    {
+      "id": "trench-2",
+      "description": "Detail shot of a trench coat's belt and fabric.",
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "fashion details"
+    },
+    {
+      "id": "trench-3",
+      "description": "Full view of a classic trench coat on a hanger.",
+      "imageUrl": "https://images.unsplash.com/photo-1556656793-08538906a9f8?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "classic coat"
+    },
+    {
+      "id": "sweater-1",
+      "description": "Cozy chunky knit sweater.",
+      "imageUrl": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "knit sweater"
+    },
+    {
+      "id": "sweater-2",
+      "description": "Model wearing a chunky knit sweater.",
+      "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "winter style"
+    },
+    {
+      "id": "sweater-3",
+      "description": "Close-up of the texture of a chunky knit sweater.",
+      "imageUrl": "https://images.unsplash.com/photo-1559563458-527698bf5295?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "wool texture"
+    },
+    {
+      "id": "scarf-1",
+      "description": "A soft, elegant silk-blend scarf.",
+      "imageUrl": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "silk scarf"
+    },
+    {
+      "id": "scarf-2",
+      "description": "Scarf wrapped around a person's neck.",
+      "imageUrl": "https://images.unsplash.com/photo-1564687267300-db9e0ef58654?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "fashion accessory"
+    },
+    {
+      "id": "corduroy-1",
+      "description": "Front view of straight-leg corduroy pants.",
+      "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "corduroy pants"
+    },
+    {
+      "id": "corduroy-2",
+      "description": "Detail shot of corduroy fabric.",
+      "imageUrl": "https://images.unsplash.com/photo-1562572159-4efc207f5aff?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "corduroy texture"
+    },
+    {
+      "id": "corduroy-3",
+      "description": "Model wearing corduroy pants.",
+      "imageUrl": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800&h=1000&fit=crop",
+      "imageHint": "mens style"
+    }
+  ]
+}
