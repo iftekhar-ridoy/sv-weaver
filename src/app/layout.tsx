@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Roboto } from 'next/font/google';
+import { Playfair_Display, Roboto, Cormorant_Garamond } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { Toaster } from '@/components/ui/toaster';
@@ -21,8 +21,14 @@ const roboto = Roboto({
   variable: '--font-roboto',
 });
 
+const cormorantGaramond = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  variable: '--font-cormorant-garamond',
+});
+
 export const metadata: Metadata = {
-  title: 'SV Weaver',
+  title: 'H&K',
   description: 'Weave Your Perfect Style with AI-powered outfit suggestions.',
 };
 
@@ -38,7 +44,8 @@ export default function RootLayout({
         className={cn(
           'font-body antialiased',
           playfairDisplay.variable,
-          roboto.variable
+          roboto.variable,
+          cormorantGaramond.variable
         )}
       >
         <AuthProvider>

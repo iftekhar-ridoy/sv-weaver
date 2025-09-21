@@ -55,7 +55,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
             <p>
-                &copy; {new Date().getFullYear()} SV Weaver. All rights reserved.
+                &copy; {new Date().getFullYear()} H&K. All rights reserved.
             </p>
         </div>
       </div>

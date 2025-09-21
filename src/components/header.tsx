@@ -204,54 +204,9 @@ const ListItem = React.forwardRef<
 ListItem.displayName = "ListItem";
 
 const Logo = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 100 40"
-    className="h-8 w-auto"
-  >
-    <text
-      x="0"
-      y="32"
-      fontFamily="serif"
-      fontSize="40"
-      fontWeight="bold"
-      fill="currentColor"
-    >
-      S
-    </text>
-    <g transform="translate(45, 0)">
-      <text
-        x="0"
-        y="32"
-        fontFamily="serif"
-        fontSize="40"
-        fontWeight="bold"
-        fill="currentColor"
-      >
-        V
-      </text>
-      <g clipPath="url(#clipV)">
-        <g stroke="currentColor" strokeWidth="1">
-          {[...Array(12)].map((_, i) => (
-            <line
-              key={i}
-              x1={15}
-              y1={17}
-              x2={15 + 20 * Math.cos((i * 2 * Math.PI) / 12 + Math.PI / 6)}
-              y2={17 + 20 * Math.sin((i * 2 * Math.PI) / 12 + Math.PI / 6)}
-            />
-          ))}
-        </g>
-      </g>
-    </g>
-    <defs>
-      <clipPath id="clipV">
-        <text x="0" y="32" fontFamily="serif" fontSize="40" fontWeight="bold">
-          V
-        </text>
-      </clipPath>
-    </defs>
-  </svg>
+  <div className="font-cormorant-garamond text-3xl font-bold text-[#cfa57e]">
+    H & K
+  </div>
 );
 
 export default function Header() {
@@ -331,14 +286,6 @@ export default function Header() {
                     >
                       <Logo />
                     </Link>
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => setSheetOpen(false)}
-                    >
-                      <X className="h-6 w-6" />
-                      <span className="sr-only">Close menu</span>
-                    </Button>
                   </div>
                   <nav className="mt-6 flex flex-col gap-4 overflow-y-auto">
                     {menuItems.map((item) => (
@@ -411,7 +358,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 flex-shrink-0">
               <Logo />
-              <span className="sr-only">SV Weaver Home</span>
+              <span className="sr-only">H&K Home</span>
             </Link>
 
             {/* Desktop Navigation - Now on the left with logo */}
